@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypermarket Admin Management Tool", "Hypermarket Admin Management Tool\Hypermarket Admin Management Tool.csproj", "{001F43FF-19B5-45F0-966A-B518E0D782C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBManagerTester", "DBManagerTester\DBManagerTester.csproj", "{599986B4-56F4-4DF6-96CC-CAEFAFABF144}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5AFE05D-C2CE-4F8F-BD8B-7CAF5613748F}"
+	ProjectSection(SolutionItems) = preProject
+		Hypermarket Admin Management Tool.vsmdi = Hypermarket Admin Management Tool.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerTester", "ControllerTester\ControllerTester.csproj", "{E0CFBCFD-F75F-45A8-A457-958D86BF93AF}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Hypermarket Admin Management Tool.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{001F43FF-19B5-45F0-966A-B518E0D782C6}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{001F43FF-19B5-45F0-966A-B518E0D782C6}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{001F43FF-19B5-45F0-966A-B518E0D782C6}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{001F43FF-19B5-45F0-966A-B518E0D782C6}.Debug|x86.ActiveCfg = Debug|x86
+		{001F43FF-19B5-45F0-966A-B518E0D782C6}.Debug|x86.Build.0 = Debug|x86
+		{001F43FF-19B5-45F0-966A-B518E0D782C6}.Release|Any CPU.ActiveCfg = Release|x86
+		{001F43FF-19B5-45F0-966A-B518E0D782C6}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{001F43FF-19B5-45F0-966A-B518E0D782C6}.Release|Mixed Platforms.Build.0 = Release|x86
+		{001F43FF-19B5-45F0-966A-B518E0D782C6}.Release|x86.ActiveCfg = Release|x86
+		{001F43FF-19B5-45F0-966A-B518E0D782C6}.Release|x86.Build.0 = Release|x86
+		{599986B4-56F4-4DF6-96CC-CAEFAFABF144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599986B4-56F4-4DF6-96CC-CAEFAFABF144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599986B4-56F4-4DF6-96CC-CAEFAFABF144}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{599986B4-56F4-4DF6-96CC-CAEFAFABF144}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{599986B4-56F4-4DF6-96CC-CAEFAFABF144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599986B4-56F4-4DF6-96CC-CAEFAFABF144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599986B4-56F4-4DF6-96CC-CAEFAFABF144}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{599986B4-56F4-4DF6-96CC-CAEFAFABF144}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{599986B4-56F4-4DF6-96CC-CAEFAFABF144}.Release|x86.ActiveCfg = Release|Any CPU
+		{E0CFBCFD-F75F-45A8-A457-958D86BF93AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CFBCFD-F75F-45A8-A457-958D86BF93AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CFBCFD-F75F-45A8-A457-958D86BF93AF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E0CFBCFD-F75F-45A8-A457-958D86BF93AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E0CFBCFD-F75F-45A8-A457-958D86BF93AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CFBCFD-F75F-45A8-A457-958D86BF93AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0CFBCFD-F75F-45A8-A457-958D86BF93AF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E0CFBCFD-F75F-45A8-A457-958D86BF93AF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E0CFBCFD-F75F-45A8-A457-958D86BF93AF}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

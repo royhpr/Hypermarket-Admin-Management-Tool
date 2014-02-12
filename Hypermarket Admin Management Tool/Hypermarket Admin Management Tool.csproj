@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{001F43FF-19B5-45F0-966A-B518E0D782C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hypermarket_Admin_Management_Tool</RootNamespace>
+    <AssemblyName>Hypermarket Admin Management Tool</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="0_View\AddEditDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\AddEditDiscount.Designer.cs">
+      <DependentUpon>AddEditDiscount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\AddEditManufacturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\AddEditManufacturer.Designer.cs">
+      <DependentUpon>AddEditManufacturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\AddEditProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\AddEditProduct.Designer.cs">
+      <DependentUpon>AddEditProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\AddEditShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\AddEditShop.Designer.cs">
+      <DependentUpon>AddEditShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\AddEditStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\AddEditStaff.Designer.cs">
+      <DependentUpon>AddEditStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\AddEditStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\AddEditStock.Designer.cs">
+      <DependentUpon>AddEditStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\Alert.Designer.cs">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\ApproveInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\ApproveInterface.Designer.cs">
+      <DependentUpon>ApproveInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\Operation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\Operation.Designer.cs">
+      <DependentUpon>Operation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0_View\SummaryReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_View\SummaryReport.Designer.cs">
+      <DependentUpon>SummaryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1_Model\DBConnectionManager.cs" />
+    <Compile Include="1_Model\DBManager.cs" />
+    <Compile Include="2_Controller\AccountManager.cs" />
+    <Compile Include="2_Controller\CoordinatingController.cs" />
+    <Compile Include="2_Controller\ShopsManager.cs" />
+    <Compile Include="2_Controller\ProductManager.cs" />
+    <Compile Include="2_Controller\SalesManager.cs" />
+    <Compile Include="2_Controller\SecurityManager.cs" />
+    <Compile Include="2_Controller\WarehouseManager.cs" />
+    <Compile Include="Constant.cs" />
+    <Compile Include="CustomMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBox.Designer.cs">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalVariableAccessor.cs" />
+    <Compile Include="PlaceholderTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ErrorLog.cs" />
+    <EmbeddedResource Include="0_View\AddEditDiscount.resx">
+      <DependentUpon>AddEditDiscount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\AddEditManufacturer.resx">
+      <DependentUpon>AddEditManufacturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\AddEditProduct.resx">
+      <DependentUpon>AddEditProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\AddEditShop.resx">
+      <DependentUpon>AddEditShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\AddEditStaff.resx">
+      <DependentUpon>AddEditStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\AddEditStock.resx">
+      <DependentUpon>AddEditStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\Alert.resx">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\ApproveInterface.resx">
+      <DependentUpon>ApproveInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\Operation.resx">
+      <DependentUpon>Operation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_View\SummaryReport.resx">
+      <DependentUpon>SummaryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBox.resx">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainbackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subbackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\add.png" />
+    <Content Include="Resources\home.png" />
+    <None Include="Resources\warehouse.png" />
+    <None Include="Resources\staff.png" />
+    <None Include="Resources\manufacturer.png" />
+    <None Include="Resources\reportbackground.jpg" />
+    <None Include="Resources\reportbackgroundimage.jpg" />
+    <None Include="Resources\reportBackground1.jpg" />
+    <None Include="Resources\reportBackground2.jpg" />
+    <None Include="Resources\reportImage.jpg" />
+    <Content Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
